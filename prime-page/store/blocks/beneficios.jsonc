@@ -1,0 +1,296 @@
+{
+  "beneficios":{
+    "blocks": [
+      "store.custom#beneficios"
+    ]
+  },
+  "store.custom#beneficios": {
+    "blocks": [
+      "flex-layout.row#containerPrime"
+    ]
+  },
+  "flex-layout.row#containerPrime": {
+    "title": "PrimeContainer",
+    "props":{
+      "blockClass":"containerPrime"
+    },
+    "children": [
+      "flex-layout.col#containerAlign"
+    ]
+  },
+  "flex-layout.col#containerAlign": {
+    "children": [
+      "rich-text#HeaderConheca",
+      "rich-text#subHeaderConheca",
+      "rich-text#headerBeneficios",
+      "flex-layout.row#containerBeneficios",
+      "list-context.image-list#prime-carossel-beneficios"
+    ]
+  },
+  "flex-layout.row#containerBeneficios": {
+    "title": "SubHeaderBeneficios",
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"beneficios"
+    },
+    "children": [
+      "image#cliqueAqui",
+      "rich-text#subHeaderBeneficios"
+    ]
+  },
+  // carossel-beneficios
+  "list-context.image-list#prime-carossel-beneficios": {
+    "title": "CarosselBeneficios",
+    "children": [
+      "slider-layout#beneficios-prime"
+    ],
+    "props": {
+      "height": 120,
+      "images": [
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/f4197598-d683-4cb4-b37d-c5d4419457b1___77486caaff7069c848d8c37596edbaa3.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/f4197598-d683-4cb4-b37d-c5d4419457b1___77486caaff7069c848d8c37596edbaa3.svg",
+          "description": "",
+          "link": {
+            "url": "",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a077c0b6-b386-4eb4-8435-aa6307b61feb___6d35eef980366ec59650a052f3310222.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a077c0b6-b386-4eb4-8435-aa6307b61feb___6d35eef980366ec59650a052f3310222.svg",
+          "description": "",
+          "link": {
+            "url": "#search-result-anchor",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/450eea8e-279b-4502-a94d-d61c52343f05___d5d31f1326bf7215fe527194f922d747.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/450eea8e-279b-4502-a94d-d61c52343f05___d5d31f1326bf7215fe527194f922d747.svg",
+          "description": "",
+          "link": {
+            "url": "/183?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a6249c2a-d07c-46dc-b5a4-bd5a23104f9c___e1a039f020ca26ddf5f6b2e83c1c9f04.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a6249c2a-d07c-46dc-b5a4-bd5a23104f9c___e1a039f020ca26ddf5f6b2e83c1c9f04.svg",
+          "description": "",
+          "link": {
+            "url": "#clubecerto-container",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/21d0e570-e89f-492e-8c24-59efec497dcc___b9352d3a01e53d3f425899cb6af77ba6.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/21d0e570-e89f-492e-8c24-59efec497dcc___b9352d3a01e53d3f425899cb6af77ba6.svg",
+          "description": "",
+          "link": {
+            "url": "/180?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          //trocado OREO e OGIN (vai depois de 6)
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/fe7e85ee-cb91-4bee-bf39-447f7ea7baa8___9b593ea7d05943502c23f554157624cf.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/fe7e85ee-cb91-4bee-bf39-447f7ea7baa8___9b593ea7d05943502c23f554157624cf.svg",
+          "description": "",
+          "link": {
+            "url": "/199?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/810238b0-57f1-4322-a7d6-c462a9da1cad___a51ef4ca6fdb4961345c2ae1b7c11f49.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/810238b0-57f1-4322-a7d6-c462a9da1cad___a51ef4ca6fdb4961345c2ae1b7c11f49.svg",
+          "description": "",
+          "link": {
+            "url": "/184?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/e5109c7e-edf6-421d-a079-9871fe0bebb6___cbdcef775fcb90e2e44e8dfe18bc9aec.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/e5109c7e-edf6-421d-a079-9871fe0bebb6___cbdcef775fcb90e2e44e8dfe18bc9aec.svg",
+          "description": "",
+          "link": {
+            "url": "/182?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/c6ecc79a-c887-4a62-92c8-62ad7e34a7f3___ca096ba74602e3cb317f9f5cdc22de24.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/c6ecc79a-c887-4a62-92c8-62ad7e34a7f3___ca096ba74602e3cb317f9f5cdc22de24.svg",
+          "description": "",
+          "link": {
+            "url": "/195?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/5bbb604a-9160-4639-b5c3-9a674af5f24f___e72eed21f84d8589b3a8eda9b05f9577.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/5bbb604a-9160-4639-b5c3-9a674af5f24f___e72eed21f84d8589b3a8eda9b05f9577.svg",
+          "description": "",
+          "link": {
+            "url": "/186?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/5bd3223e-2b9a-4d9b-9e59-bbaf884570ff___2a05010e100cfb2b2d2d1462153db811.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/5bd3223e-2b9a-4d9b-9e59-bbaf884570ff___2a05010e100cfb2b2d2d1462153db811.svg",
+          "description": "",
+          "link": {
+            "url": "/178?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/2330d939-0326-4ebe-a261-c769056483d7___fa2d293d012b07b11850675eeb405688.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/2330d939-0326-4ebe-a261-c769056483d7___fa2d293d012b07b11850675eeb405688.svg",
+          "description": "",
+          "link": {
+            "url": "/201?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/c261d836-6498-45fe-8da4-5b13c92ebf5c___66774ad519b848054f387517938cecfa.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/c261d836-6498-45fe-8da4-5b13c92ebf5c___66774ad519b848054f387517938cecfa.svg",
+          "description": "",
+          "link": {
+            "url": "/177?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/cc78e96c-016c-497b-b30f-11c3879dcd46___767b893c215f8dd728f3151a0eedb28d.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/cc78e96c-016c-497b-b30f-11c3879dcd46___767b893c215f8dd728f3151a0eedb28d.svg",
+          "description": "",
+          "link": {
+            "url": "/197?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a86dbad7-f1cd-4f0a-948b-80c488f3aa71___5e9495444efa9b46190156a3a4ddb621.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/a86dbad7-f1cd-4f0a-948b-80c488f3aa71___5e9495444efa9b46190156a3a4ddb621.svg",
+          "description": "",
+          "link": {
+            "url": "/196?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/320d1748-1ae7-4f3d-9e2e-eb53b3521ad1___8150b961c499d55fe43d54200cb6f952.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/320d1748-1ae7-4f3d-9e2e-eb53b3521ad1___8150b961c499d55fe43d54200cb6f952.svg",
+          "description": "",
+          "link": {
+            "url": "/200?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/b275a8a4-fe96-4ebf-9e36-37d831d29f4b___f9860ff7351e456c412600f6788e8002.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/b275a8a4-fe96-4ebf-9e36-37d831d29f4b___f9860ff7351e456c412600f6788e8002.svg",
+          "description": "",
+          "link": {
+            "url": "/198?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/12a6208b-4e12-4246-afc9-c2dd3a6f476c___520455ccaada33b49776588be637b687.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/12a6208b-4e12-4246-afc9-c2dd3a6f476c___520455ccaada33b49776588be637b687.svg",
+          "description": "",
+          "link": {
+            "url": "/268?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/051ba2a0-cbc1-48e5-be66-9d752566c5d5___7986ef4614eaef5272e5501ea5438ebf.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/051ba2a0-cbc1-48e5-be66-9d752566c5d5___7986ef4614eaef5272e5501ea5438ebf.svg",
+          "description": "",
+          "link": {
+            "url": "/347?map=productClusterIds",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/1818abdf-6b17-45de-a7d4-5f373ddc2d8f___dd8c1d37ceeade3962858cf9dcfaf942.svg",
+          "mobileImage": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/1818abdf-6b17-45de-a7d4-5f373ddc2d8f___dd8c1d37ceeade3962858cf9dcfaf942.svg",
+          "description": "",
+          "link": {
+            "url": "",
+            "openNewTab": false
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#beneficios-prime": {
+    "title": "CarosselConfig",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      },
+      "arrowSize": {
+        "desktop": 20,
+        "tablet": 10,
+        "phone": 10
+      },
+      "infinite": true,
+      "usePagination": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "beneficios"
+    }
+  },
+  //cabeçalho conheca
+  "rich-text#HeaderConheca": {
+    "title": "HeaderConheca",
+    "props": {
+      "text": "### conheça o Clube Supernosso Prime",
+      "blockClass": "textConheca"
+    }
+  },
+  "rich-text#subHeaderConheca": {
+    "title": "subHeaderConheca",
+    "props": {
+      "text": "Garanta **entrega grátis**, descontos e **ofertas exclusivas** em todo o site, app, lojas físicas e parceiros com o nosso serviço de assinatura em um pagamento único. [Clique aqui](#iFrameResizer0) e confira o melhor plano Prime para você!",
+      "blockClass": "textConheca"
+    }
+  },
+  //cabeçalho beneficios
+  "rich-text#headerBeneficios": {
+    "title": "HeaderBeneficios",
+    "props": {
+      "text": "### benefícios de ser cliente Prime",
+      "blockClass": "textBeneficios"
+    }
+  },
+  "rich-text#subHeaderBeneficios": {
+    "title": "subHeaderBeneficios",
+    "props": {
+      "text": "Clique em cada ícone abaixo e confira",
+      "blockClass": "textBeneficios"
+    }
+  },
+  "image#cliqueAqui": {
+    "title": "IconeCliqueAqui",
+    "props": {
+      "src": "https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/81d1317a-a73f-4afc-9bf1-62b2c2b0095f___6d6019d73ad8d967e0a8d9f1a4c0c998.svg",
+      "maxHeight": 40,
+      "blockClass": "iconBeneficios"
+    }
+  }
+}

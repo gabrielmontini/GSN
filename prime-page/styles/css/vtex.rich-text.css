@@ -1,0 +1,28 @@
+.container {
+    justify-content: flex-start;
+}
+.heading {
+    color: #7D7566;
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+}
+.paragraph--textConheca {
+    font-size: 1.25rem;
+    color: #7D7566;
+    line-height: 1.438rem;
+}
+.paragraph--textBeneficios {
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    color: #D1A05C;
+    line-height: 1.438rem;
+}
+.link--textConheca{
+    text-decoration: none;
+    color: #7D7566;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+.link--textConheca:hover{
+    filter: brightness(150%);
+}

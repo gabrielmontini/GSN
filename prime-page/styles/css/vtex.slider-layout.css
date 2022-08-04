@@ -1,0 +1,34 @@
+.sliderArrows--beneficios::after{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+}
+.sliderRightArrow--beneficios::after{
+    background: url(https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/7f3ea49a-ff7b-46e8-b238-9792fa4ea295___2b4b19940909692e89f409aa6d61701f.svg);
+}
+.sliderLeftArrow--beneficios::after{
+    background: url(https://supernossoio.vtexassets.com/assets/vtex.file-manager-graphql/images/1620bd33-5da0-497d-8d6f-f705ea472c25___680c94f7f41115f519437face970b496.svg);
+}
+.sliderArrows--beneficios:hover{
+    filter: brightness(150%);
+}
+.imageElement--beneficios {
+    cursor: pointer;
+    border-radius: 5px;
+    border-top: 2px solid #fff;
+}
+.imageElement--beneficios:hover {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(93%) saturate(1560%) hue-rotate(309deg) brightness(83%) contrast(95%);
+}
+.slideChildrenContainer--beneficios{
+    margin-bottom: 1rem;
+}
+.paginationDotsContainer--beneficios{
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: baseline;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,7 @@
+.flexRowContent--containerPrime{
+    padding: 0px 15%;
+}
+.flexRowContent--beneficios{
+    display: flex;
+    margin-left: 0.2rem;
+}
