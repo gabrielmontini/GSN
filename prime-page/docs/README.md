@@ -1,12 +1,8 @@
-# Prime Component
+# Prime Custom App
 
-The Prime Component is based on the minimum Boilerplate Theme which model is based on the VTEX IO Store Framework.
+The Prime Custom App is based on the minimum Boilerplate Theme which model is based on the VTEX IO Store Framework.
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run  `vtex list`  and check whether those apps are already installed. 
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
+Until now there is only the "beneficios" component, which does not use any react file.
 
 ### Uninstalling any existing theme
 
@@ -30,4 +26,4 @@ This will enable you to see the applied changes in real time, through the accoun
 
 ### Preview
 
-To enable the theme changes on Prime page, go to yourworkspace.yourstore.myvtex.com/admin/cms/pages and change the active theme on your Prime page or create a new one with this theme.
+To enable the theme changes on Prime page, go to yourworkspace.yourstore.myvtex.com/admin/cms/pages and change the active theme on your page or create a new one with this theme.
